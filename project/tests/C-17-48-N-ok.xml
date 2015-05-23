@@ -1,0 +1,64 @@
+<sequence_node size='4'>
+  <vardecl_node>
+    name: x
+    qualifiers: 
+      isLocal = 'false'
+      isImported = 'false'
+  </vardecl_node>
+  <vardecl_node>
+    name: y
+    qualifiers: 
+      isLocal = 'false'
+      isImported = 'false'
+  </vardecl_node>
+  <vardecl_node>
+    name: z
+    qualifiers: 
+      isLocal = 'false'
+      isImported = 'false'
+  </vardecl_node>
+  <fundef_node>
+    <fundecl_node>
+      name: 
+0x98b63a0      qualifiers: 
+        isLocal = 'false'
+        isImported = 'false'
+      arguments: 
+        <sequence_node size='1'>
+          <sequence_node size='1'>
+          </sequence_node>
+        </sequence_node>
+    </fundecl_node>
+    <sequence_node size='1'>
+      <sequence_node size='2'>
+        <evaluation_node>
+          <and_node>
+            <eq_node>
+              <rvalue_node>
+                  <basic_lvalue_node>
+0x98b6458                  </basic_lvalue_node>
+              </rvalue_node>
+              <rvalue_node>
+                  <basic_lvalue_node>
+0x98b64b0                  </basic_lvalue_node>
+              </rvalue_node>
+            </eq_node>
+            <assignment_node>
+              <basic_lvalue_node>
+0x98b6520              </basic_lvalue_node>
+              <rvalue>
+                <integer_node>7</integer_node>
+              </rvalue>
+            </assignment_node>
+          </and_node>
+        </evaluation_node>
+        <print_node>
+          <rvalue_node>
+              <basic_lvalue_node>
+0x98b65e0              </basic_lvalue_node>
+          </rvalue_node>
+        </print_node>
+      </sequence_node>
+    </sequence_node>
+  </fundef_node>
+</sequence_node>
